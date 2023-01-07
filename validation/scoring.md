@@ -13,3 +13,8 @@ Out of all positive samples, how many can the model classify properly?
 
 ## Basically ignores if you misclassify a negative as a positive though. Is there a consequence if you misclassify a negative as a positive
 
+
+## When to use what scoring method?
+
+If the data is imbalanced, consider using precision-recall AUC or f1 score, otherwise, maybe accuracy or ROC AUC would work. See the **validation** folder for more information.
+
